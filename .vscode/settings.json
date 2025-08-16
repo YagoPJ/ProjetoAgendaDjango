@@ -1,0 +1,16 @@
+{
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "google-translate.firstLanguage": "pt",
+    "python.defaultInterpreterPath": "c:\\Users\\Kaio\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python.languageServer": "Pylance",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
+    
+}
