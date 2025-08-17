@@ -11,6 +11,11 @@
     "emmet.includeLanguages": {
         "django-html": "html"
     },
-    "workbench.secondarySideBar.defaultVisibility": "hidden"
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "python-envs.pythonProjects": [],
+    "python.analysis.extraPaths": [
+    "./venv/Lib/site-packages"
+    ]
+
     
 }
