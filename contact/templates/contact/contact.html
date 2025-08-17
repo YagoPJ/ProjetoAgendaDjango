@@ -1,0 +1,16 @@
+{% extends "global/base.html" %}
+
+{% block content %}
+    <div class="single-contact">
+        <h1 class="single-contact-name">
+            {{contacts.first_name}} {{contacts.last_name}}
+        </h1>
+        <p><b>ID:</b> {{contacts.id}}</p>
+        <p><b>EMAIL:</b> {{contacts.email}}</p>
+        <p><b>PHONE:</b> {{contacts.phone}}</p>
+        <p><b>CREATED DATE:</b> {{contacts.created_date}}</p>
+        <p><b>DESCRIPTION:</b> {{contacts.description}}</p>
+        <p><b>CATEGORY:</b> {{contacts.category}}</p>
+
+    </div>
+{% endblock content %}
