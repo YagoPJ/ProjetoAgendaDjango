@@ -6,17 +6,20 @@
         <nav class="menu">
             <ul class="menu-list">
                 <li class="menu-item">
-                    <a href="" class="menu-link">LINK 1</a>
+                    <a href="{% url "contact:create" %}" class="menu-link">CRIAR</a>
                 </li>
                 <li class="menu-item">
-                    <a href="" class="menu-link">LINK 2</a>
+                    <a href="{% url "admin:index" %}" class="menu-link">ADMIN</a>
+                </li>
+                <li class="menu-item">
+                    <a href="{% url "contact:register" %}" class="menu-link">REGISTER USERS</a>
                 </li>
             </ul>
         </nav>
 
         <div class="search">
             <form action="{% url 'contact:search'%}" method="GET">
-                <input type="text" class="search-input" placeholder='Search' id='search' name='q'>
+                <input type="text" class="search-input" placeholder='Search' id='search' name='q' value="{{request.GET.q.strip}}">
             </form>
         </div>
     </header>
